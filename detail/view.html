@@ -1,0 +1,13 @@
+<div ng-show="!loading">
+	<div class="jumbotron">
+		<h1>{{detail.title}}</h1>
+		<img ng-src="{{detail.images.large}}" />
+		<p>{{detail.summary}}</p>
+	</div>
+</div>
+<div class="mask" ng-show="loading">
+	<div class="spinner">
+		<div class="dot1"></div>
+		<div class="dot2"></div>
+	</div>
+</div>
